@@ -475,6 +475,10 @@ main, header, footer { position: relative; z-index: 1; }
 /* Tilt cards on mouse */
 .tilt { transform-style: preserve-3d; will-change: transform; }
 
+/* generic clickable reliability */
+.btn, .contact-card, .nav-links a, .brand { cursor: pointer; }
+.btn, .contact-card { pointer-events: auto; }
+
 /* scrollbar */
 ::-webkit-scrollbar { width: 10px; }
 ::-webkit-scrollbar-track { background: #06070d; }
